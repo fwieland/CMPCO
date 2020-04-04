@@ -2,44 +2,73 @@
 <html lang="en-US">
     <head>
         <title>HTML Page</title>
-        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-        <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" href="C:\Users\Forrest\Documents\Coding\Homework\CMPCO\CMPCO\Stylecmpco.css" />
+        
+        
         <meta charset="utf-8">
         <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
         <script src="https://use.fontawesome.com/493b8acd4c.js"></script>
+        <!--Bootstrap carousel-->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="C:\Users\Forrest\Documents\Coding\Homework\CMPCO\CMPCO\Stylecmpco.css" />
       </head>
 
     <body>
-        
+        <!--header with logo, company name & webpage Navigation links-->
         <header class="headfoot">
             <div class="logo">
                 <img id="header-img" src="https://imgur.com/altfxqk.png"  title="source: imgur.com" />
               </div>
-              <h1 >Chris Money <br>Plumbing Company</h1>
+              <h1 >Chris Money Plumbing<br>Company</h1>
             <nav id="nav-bar">
               <ul>
                 <li><a class="nav-link" href="#">Main Page</a></li>
+                <br>
                 <li><a class="nav-link" href="#">Services</a></li>
+                <br>
                 <li><a class="nav-link" href="#">Contact Us</a></li>
               </ul>
             </nav>
         </header>
 
+<!--Company Slogan-->
+        <h2>"We Do Our Business, So You Can Do Yours."</h2>
+<!--Slider-->
+<div id="carousel" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner" role="listbox" style="width:500px; height:400px; margin: auto !important;">
+    <div class="carousel-item active">
+        <img class="d-block w-100" src="https://imgur.com/CYO2iJU.png" alt="Skyscraper against the sky" />
+          <figcaption>No Project Too Big Or Small</figcaption>
+    </div>
+    <div class="carousel-item">
+        <img class="d-block w-100" src="https://imgur.com/4NPAwcK.png" alt="Monkey Wrenches tightening Pipe" />
+          <figcaption>Request Service</figcaption>
+    </div>
+    <div class="carousel-item">
+        <img class="d-block w-100" src="https://imgur.com/6TipkVf.png" alt="Colorado State Flag" />
+          <figcaption>Colorado Owned & Operated</figcaption>
+    </div>
+  </div>
+</div>
+<!--About Us Section-->
+        <H3>About Us</H3>
+        <section class="bordertext">
+          <p>We Are A Full Service Plumbing Company. Right Here In Colorado. <br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </section>
 
-
-        
+<!--Footer with company address and links-->
         <footer class="headfoot">
           <p>Address:<br>3333 Skyway HWY <br> Colorado Springs, CO <br>80999</p>
           <div class="contact-links" id="contact">
-            <a href="https://pottytalklive.com/" target="_blank" class="btn contact-details"><i class="fa fa-podcast" aria-hidden="true"></i>ThePottyTalk</a>
-            <br><br>    
-            <a href="x" target="_blank" class="btn contact-details"><i class="fa fa-bath" aria-hidden="true"></i> Services</a>
+            <a href="tel:800-555-1234" class="btn contact-details"><i class="fa fa-phone" aria-hidden="true"></i> Call Us</a>
             <br>
             <a href="mailto:showmethemoney@plumbers.com" class="btn contact-details"><i class="fa fa-envelope-o" aria-hidden="true"></i> Send a Email</a>
             <br>
-            <a href="tel:800-555-1234" class="btn contact-details"><i class="fa fa-phone" aria-hidden="true"></i> Call Us</a>
-            </div>
+            <a href="https://pottytalklive.com/" target="_blank" class="btn contact-details"><i class="fa fa-podcast" aria-hidden="true"></i>ThePottyTalk</a> 
+          </div>
         </footer>
     </body>
 </html>
