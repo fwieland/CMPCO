@@ -1,0 +1,35 @@
+
+header {
+    height:160px;
+    background-color: rgb(109, 175, 230);
+    font-family: 'Oswald', sans-serif;
+    color: rgb(52, 59, 172);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}  
+#header-img {
+    height:200px;
+    float: left;
+    margin-top: -1em;
+  }
+
+nav ul{
+    float: right;
+    margin-right: 2em;
+    padding: 2em;
+  }
+nav li{
+    display: inline;
+    padding: 1em;
+    display: inline-block;
+  }
+
+/*hyperlink styling, hover background*/
+a {
+    text-decoration: none;
+    color: rgb(52, 59, 172);
+  }
+  a:hover {
+    background: rgb(255, 255, 0);
+  }
