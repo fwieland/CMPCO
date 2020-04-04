@@ -37,3 +37,16 @@ a {
   a:hover {
     background: rgb(255, 255, 0);
   }
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 1em;
+      margin-top: 20px;
+      line-height: 40px;
+    }
+    nav ul {
+      font-size: 0.8em;
+      padding: 0em;
+    }
+    #header-img {
+      height: 100px;
+    }
