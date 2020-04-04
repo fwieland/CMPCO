@@ -1,5 +1,5 @@
 
-header {
+header, footer {
     height:160px;
     background-color: rgb(109, 175, 230);
     font-family: 'Oswald', sans-serif;
@@ -24,12 +24,16 @@ nav li{
     padding: 1em;
     display: inline-block;
   }
-
+footer {
+  margin-top: 400px;
+  padding:20px;
+  text-align: center;
+}
 /*hyperlink styling, hover background*/
 a {
     text-decoration: none;
     color: rgb(52, 59, 172);
   }
   a:hover {
-    background: rgb(255, 157, 0);
+    background: rgb(255, 255, 0);
   }
