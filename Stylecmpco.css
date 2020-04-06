@@ -68,7 +68,7 @@ figcaption {
 }
 
 .servicepics {
-  image-resolution: 80%;
+  width: 400px;
 }
 /*hyperlink styling, hover background*/
 a {
