@@ -63,7 +63,7 @@ figcaption {
 #crossbow {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   text-align: center;
   line-height: 2em;
 }
