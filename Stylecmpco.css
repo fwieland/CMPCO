@@ -1,6 +1,7 @@
 body {
   font-family: 'Oswald', sans-serif;
-    color: rgb(52, 59, 172);
+  color: rgb(52, 59, 172);
+  background-image: url('https://cdn.pixabay.com/photo/2018/04/08/15/13/background-3301487_1280.jpg');
 }
 header, footer {
     height:160px;
@@ -94,7 +95,7 @@ a:hover {
     #header-img {
       height: 100px;
     }
-    .carousel-item img{
+    .carousel-item img, .servicepics{
       height: 200px;
       margin: 2em;
     }
