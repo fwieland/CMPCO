@@ -58,6 +58,13 @@ figcaption {
   margin: 3em;
   font-size: 1.3em;
 }
+
+#crossbow {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  line-height: 2em;
+}
 /*hyperlink styling, hover background*/
 a {
     text-decoration: none;
