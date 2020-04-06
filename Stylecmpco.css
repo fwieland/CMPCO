@@ -66,6 +66,10 @@ figcaption {
   text-align: center;
   line-height: 2em;
 }
+
+.servicepics {
+  image-resolution: 80%;
+}
 /*hyperlink styling, hover background*/
 a {
     text-decoration: none;
