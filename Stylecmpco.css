@@ -1,9 +1,8 @@
 body {
   font-family: 'Oswald', sans-serif;
     color: rgb(52, 59, 172);
-    background-image: url('https://cdn.pixabay.com/photo/2018/04/08/15/13/background-3301487_1280.jpg');>
 }
-    header, footer {
+header, footer {
     height:160px;
     background-color: rgb(129, 169, 224);
     width: 100%;
@@ -41,10 +40,12 @@ h2,h4 {
   margin: 1em;
 }
 h3 {
-  text-indent: 8em;
+  text-indent: 6em;
+  margin-top: 3em;
 }
 figcaption {
   text-align: center;
+  font-size: 1.3em;
   margin: 1em;
 }
 
@@ -55,15 +56,24 @@ figcaption {
   padding: 1em;
   padding-left: 2em;
   margin: 3em;
+  font-size: 1.3em;
 }
 /*hyperlink styling, hover background*/
 a {
     text-decoration: none;
     color: rgb(52, 59, 172);
+    line-height: 0em;
+    font-size: 1.35em;
   }
-  a:hover {
+a:hover {
     background: rgb(255, 255, 0);
+    border-radius: 3px;
+    padding: 15px;
   }
+.gmaps {
+  margin-top: 66px;
+  font-size: 1.1em;
+}
   @media (max-width: 600px) {
     h1 {
       font-size: 1em;
