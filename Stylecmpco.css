@@ -100,10 +100,12 @@ a:hover {
 /*adding styling for form*/
 #contactform {
   border: 3px solid grey;
-  background-color: blue;
+  background-color:whitesmoke;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  height: 600px;
+  width: 400px;
 }
 /*@media rules for a shrinked webbrowser under 600px
 shrinking images and text for space/ readability */ 
