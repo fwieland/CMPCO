@@ -100,7 +100,8 @@ a:hover {
 /*adding styling for form*/
 #contactform {
   border: 3px solid grey;
-  background-color:whitesmoke;
+  background-color: lightgray;
+  color: darkgray; 
   margin: 0 auto; 
   height: 600px;
   width: 400px;
