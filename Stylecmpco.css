@@ -78,7 +78,9 @@ includes flex box properties for spacing */
 #columns {
   column-count: 3;
   column-gap: 12px;
-  column-rule-style: dashed;
+  column-rule-style: solid;
+  line-height: 1.3em;
+  padding: 1.3em;
 }
 /*contact us page top*/
 #phonecall {
