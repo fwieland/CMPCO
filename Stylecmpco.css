@@ -112,6 +112,17 @@ a:hover {
   font-size:18px;
   margin-bottom: 16px;
 }
+/*div control to center form */
+.contactus {
+  text-align: center;
+  border: rgb(129, 169, 224);
+  border-style: solid;
+  border-width: 5px;
+  padding: 1em;
+  padding-left: 2em;
+  margin: 3em;
+  font-size: 1.3em;
+}
 /*@media rules for a shrinked webbrowser under 600px
 shrinking images and text for space/ readability */ 
 @media (max-width: 600px) {
