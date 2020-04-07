@@ -109,7 +109,6 @@ a:hover {
   outline: none;
   border-bottom: 1px solid gray;
   color:rgb(52, 59, 172);
-  font-size:1.3em;
   margin: 6px;
 }
 /*div control to center form */
@@ -121,7 +120,7 @@ a:hover {
   border-width: 5px;
   padding: 1em;
   padding-left: 2em;
-  margin-left: 50%;
+  margin-left: 25%;
   font-size: 1.3em;
 }
 /*@media rules for a shrinked webbrowser under 600px
