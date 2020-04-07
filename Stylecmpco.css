@@ -126,6 +126,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  max-width: 500px;
 }
 /*@media rules for a shrinked webbrowser under 600px
 shrinking images and text for space/ readability */ 
