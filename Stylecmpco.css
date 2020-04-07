@@ -1,8 +1,10 @@
+//sets background img, fonts and color of text
 body {
   font-family: 'Oswald', sans-serif;
   color: rgb(52, 59, 172);
   background-image: url('https://cdn.pixabay.com/photo/2018/04/08/15/13/background-3301487_1280.jpg');
 }
+//tag with flexbox properties for all header and footers
 header, footer {
     height:160px;
     background-color: rgb(129, 169, 224);
@@ -11,12 +13,13 @@ header, footer {
     justify-content: space-around;
     text-align: center;
 }  
+//maintaining img size, position
 #header-img {
     height:200px;
     float: left;
     margin-top: -1em;
   }
-
+//making spacing within header for everything w/o flexbox
 nav ul{
     float: right;
     margin-right: 1em;
@@ -28,6 +31,8 @@ nav li{
     padding: 1em;
     display: inline-block;
   }
+//spacing text into white space
+//& adjusting size for readability 
 footer {
   margin-top: 50px;
   padding:20px;
@@ -49,7 +54,7 @@ figcaption {
   font-size: 1.3em;
   margin: 1em;
 }
-
+//rules for sections. Spacing, boder, text size
 .bordertext {
   border: rgb(129, 169, 224);
   border-style: solid;
@@ -59,7 +64,8 @@ figcaption {
   margin: 3em;
   font-size: 1.3em;
 }
-
+//bad id name. second classification for Service section
+//includes flex box properties for spacing 
 #crossbow {
   display: flex;
   flex-direction: row;
@@ -68,7 +74,7 @@ figcaption {
   line-height: 2em;
   background-color: rgba(255, 255, 255, 0.5);
 }
-
+//adjusting size of images on service page
 .servicepics {
   height: 300px; 
   
@@ -85,10 +91,14 @@ a:hover {
     border-radius: 3px;
     padding: 15px;
   }
+//adjusting google maps link on footer
 .gmaps {
   margin-top: 66px;
   font-size: 1.1em;
 }
+
+//@media rules for a shrinked webbrowser under 600px
+//shrinking images and text for space/ readability 
   @media (max-width: 600px) {
     h1 {
       font-size: 1em;
