@@ -120,9 +120,12 @@ a:hover {
   border-width: 5px;
   padding: 1em;
   padding-left: 2em;
-  margin-left: auto !important;
-  margin-right: auto !important;
   font-size: 1.3em;
+}
+#contactus {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 /*@media rules for a shrinked webbrowser under 600px
 shrinking images and text for space/ readability */ 
