@@ -99,14 +99,15 @@ a:hover {
 }
 
 /*adding styling for form*/
-#contactform {
-  border: 3px solid grey;
-  background-color: lightgray;
-  color: rgb(52, 59, 172); 
-  padding: 10px;
-  max-width: 600px;
-  text-align: center;
-  margin: 20px auto;
+.form-control {
+  width: 600px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  color: #fff;
+  font-size:18px;
+  margin-bottom: 16px;
 }
 /*@media rules for a shrinked webbrowser under 600px
 shrinking images and text for space/ readability */ 

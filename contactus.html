@@ -28,17 +28,22 @@
             </nav>
         </header>
 
-        <!--Contact Us form with formspree-->
-        <form id="contactform" action="//formspree.io/fwieland90@gmail.com">
-          Email: <input type="text" name="name" required><br>
-          Name: <input type="text" name="email" required><br>
-          Subject: <input type="text" name="subject"><br>
-          Message: <textarea name="message" cols="40" rows="5"></textarea>
-          <input type="submit" value="Send Message">
-        </form>
-
-
         <h2>Call us anytime <br> 1-800-555-1234</h2>
+        <!--Contact Us form with formspree-->
+        <form id="contactform" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/YOUR_EMAIL_HERE" method="post">
+  <fieldset id="fs-frm-inputs">
+    <label for="full-name">Full Name</label>
+    <input  class="form-control" type="text" name="name" id="full-name" placeholder="First and Last" required="">
+    <label for="email-address">Email Address</label>
+    <input class="form-control" type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+    <label for="message">Message</label>
+    <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
+    <input class="form-control" type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+  </fieldset>
+  <input type="submit" value="Submit">
+
+
+
 
 
         
