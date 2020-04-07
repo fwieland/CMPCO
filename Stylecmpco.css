@@ -101,9 +101,7 @@ a:hover {
 #contactform {
   border: 3px solid grey;
   background-color:whitesmoke;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  margin: 0 auto; 
   height: 600px;
   width: 400px;
 }
