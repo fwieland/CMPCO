@@ -64,7 +64,8 @@ figcaption {
   margin: 3em;
   font-size: 1.3em;
 }
-/*bad id name. second classification for Service section
+/*bad id name. flexbox zombies inspired.
+second classification for Service section
 includes flex box properties for spacing */
 #crossbow {
   display: flex;
