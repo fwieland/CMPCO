@@ -73,6 +73,7 @@ includes flex box properties for spacing */
   text-align: center;
   line-height: 2em;
   background-color: rgba(255, 255, 255, 0.5);
+  
 }
 /*adjusting size of images on service page*/
 .servicepics {
@@ -101,10 +102,11 @@ a:hover {
 #contactform {
   border: 3px solid grey;
   background-color: lightgray;
-  color: darkgray; 
-  margin: 0 auto; 
-  height: 600px;
-  width: 400px;
+  color: rgb(52, 59, 172); 
+  padding: 10px;
+  max-width: 600px;
+  text-align: center;
+  margin: 20px auto;
 }
 /*@media rules for a shrinked webbrowser under 600px
 shrinking images and text for space/ readability */ 
