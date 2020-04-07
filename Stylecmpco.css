@@ -97,6 +97,14 @@ a:hover {
   font-size: 1.1em;
 }
 
+/*adding styling for form*/
+form {
+  border: 3px solid grey;
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
 /*@media rules for a shrinked webbrowser under 600px
 shrinking images and text for space/ readability */ 
 @media (max-width: 600px) {
