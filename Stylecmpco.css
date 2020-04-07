@@ -120,8 +120,8 @@ a:hover {
   border-width: 5px;
   padding: 1em;
   padding-left: 2em;
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: auto !important;
+  margin-right: auto !important;
   font-size: 1.3em;
 }
 /*@media rules for a shrinked webbrowser under 600px
