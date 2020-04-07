@@ -28,19 +28,23 @@
             </nav>
         </header>
 
-        <h2 class="bordertext">Call us anytime <br> 1-800-555-1234</h2>
+        <h2 id="phonecall">Call us anytime <br> 1-800-555-1234</h2>
         <!--Contact Us form with formspree-->
   <form class="form-control" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/YOUR_EMAIL_HERE" method="post">
   <fieldset id="fs-frm-inputs">
-    <label for="full-name">Full Name</label>
+    <label for="full-name">Full Name</label><br>
     <input  class="form-control" type="text" name="name" id="full-name" placeholder="First and Last" required="">
-    <label for="email-address">Email Address</label>
-    <input class="form-control" type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
-    <label for="message">Message</label>
-    <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
+    <br>
+    <label for="email-address">Email Address</label><br>
+    <input class="form-control" type="email" name="_replyto" id="email-address" placeholder="example@email.com" required="">
+    <br>
+    <label for="message">Message</label><br>
+    <textarea rows="5" name="message" id="message" placeholder="Your message here" required=""></textarea>
+    <br>
     <input class="form-control" type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
   </fieldset>
   <input type="submit" value="Submit">
+  </form>
 
 
 
