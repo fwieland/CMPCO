@@ -103,7 +103,7 @@ a:hover {
 
 /*adding styling for form*/
 .form-control {
-  width: 600px;
+  width: 500px;
   background: rgba(255, 255, 255, 0.5);
   border: none;
   outline: none;
@@ -120,7 +120,7 @@ a:hover {
   border-width: 5px;
   padding: 1em;
   font-size: 1.3em;
-  margin-left: 20% !important;
+  margin-left: 25% !important;
   margin-right: auto !important;
 }
 
