@@ -136,6 +136,7 @@ a:hover {
 /*@media rules for a shrinked webbrowser under 600px
 shrinking images and text for space/ readability */ 
 @media screen and (max-width: 600px) {
+  /*making header mobile friendly*/
   header {
     flex-direction: column;
     align-items: center;
@@ -154,10 +155,12 @@ shrinking images and text for space/ readability */
   #header-img {
     height: 130px;
   }
+  /*image size change*/
   .carousel-item img, .servicepics{
     height: 250px;
     margin: 2em;
   }
+  /*uncramming columns for mobile*/
   #columns {
     column-count: 1;
   }
