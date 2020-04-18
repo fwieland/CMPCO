@@ -170,6 +170,9 @@ shrinking images and text for space/ readability */
     width: 400px;
     flex-wrap: wrap-reverse;
   }
+  #contact-links{
+    position: static;
+  }
   .contact-links{
     margin-top: 1rem;
   }
