@@ -152,16 +152,14 @@ shrinking images and text for space/ readability */
     padding: 0em;
     top: 10px;
     background-color: gray;
+    flex-direction: row;
   }
   #header-img {
     height: 130px;
   }
-  header:nth-child(3){
-    flex-direction: row;
-  }
   /*image size change*/
   .carousel-item img, .servicepics{
-    height: 250px;
+    height: 200px;
     margin: 2em;
   }
   /*uncramming columns for mobile*/
