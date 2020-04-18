@@ -113,7 +113,7 @@ a:hover {
 
 /*adding styling for form*/
 .form-control {
-  width: 500px;
+  width: 31.25rem;
   background: rgba(255, 255, 255, 0.5);
   border: none;
   outline: none;
@@ -158,7 +158,7 @@ shrinking images and text for space/ readability */
 
   /*image size change*/
   .carousel-item img, .servicepics{
-    height: 200px;
+    height: 12.5rem;
     margin: 2em;
   }
   /*uncramming columns for mobile*/
@@ -167,7 +167,7 @@ shrinking images and text for space/ readability */
   }
   /*services images*/
   #crossbow{
-    width: 400px;
+    width: 25rem;
     flex-wrap: wrap-reverse;
   }
   #contact-links{
