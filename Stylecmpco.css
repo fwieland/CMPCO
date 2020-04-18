@@ -158,4 +158,7 @@ shrinking images and text for space/ readability */
     height: 250px;
     margin: 2em;
   }
+  #columns {
+    column-count: 1;
+  }
 }
