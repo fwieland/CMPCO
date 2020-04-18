@@ -137,13 +137,13 @@ a:hover {
 shrinking images and text for space/ readability */ 
 @media screen and (max-width: 600px) {
   /*making header mobile friendly*/
-  header {
+  header, footer {
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
   h1 {
-    font-size: 1em;
+    font-size: 2em;
     margin-top: 20px;
     line-height: 40px;
   }
@@ -151,11 +151,13 @@ shrinking images and text for space/ readability */
     font-size: 0.8em;
     padding: 0em;
     top: 10px;
-    flex-direction: row;
     background-color: gray;
   }
   #header-img {
     height: 130px;
+  }
+  header:nth-child(3){
+    flex-direction: row;
   }
   /*image size change*/
   .carousel-item img, .servicepics{
