@@ -151,6 +151,8 @@ shrinking images and text for space/ readability */
     font-size: 0.8em;
     padding: 0em;
     top: 10px;
+    flex-direction: row;
+    background-color: gray;
   }
   #header-img {
     height: 130px;
