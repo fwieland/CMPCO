@@ -151,7 +151,7 @@ shrinking images and text for space/ readability */
     font-size: 0.8em;
     padding: 0em;
     top: 10px;
-    background-color: gray;
+    background-color: rgba(185,185,185, 0.5);
     flex-direction: row;
   }
   #header-img {
