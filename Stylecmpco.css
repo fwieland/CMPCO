@@ -143,8 +143,8 @@ shrinking images and text for space/ readability */
     align-items: center;
     text-align: center;
   }
-  h1 {
-    font-size: 2em;
+  h1,h2 {
+    font-size: 2rem;
     margin-top: 60px;
     line-height: 40px;
   }
@@ -164,5 +164,13 @@ shrinking images and text for space/ readability */
   /*uncramming columns for mobile*/
   #columns {
     column-count: 1;
+  }
+  /*services images*/
+  #crossbow{
+    width: 400px;
+    flex-wrap: wrap-reverse;
+  }
+  .contact-links{
+    margin-top: 1rem;
   }
 }
