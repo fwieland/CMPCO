@@ -72,6 +72,7 @@ includes flex box properties for spacing */
   display: flex;
   flex-direction: column-reverse;
   justify-content: space-around;
+  align-items: center;
   text-align: center;
   line-height: 2em;
   background-color: rgba(255, 255, 255, 0.5);
@@ -91,7 +92,7 @@ includes flex box properties for spacing */
 /*adjusting size of images on service page*/
 .servicepics {
   height: 18rem;
-  width: 21rem; 
+  width: 25rem; 
 }
 /*hyperlink styling, hover background*/
 a {
@@ -156,7 +157,7 @@ shrinking images and text for space/ readability */
     flex-direction: row;
   }
   #header-img {
-    position: fixed;
+    position: static;
     top: -2rem;
   }
   /*image size change*/
