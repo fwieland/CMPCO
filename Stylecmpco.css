@@ -1,3 +1,11 @@
+/*for proper width at small screens Hopefully*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 /*sets background img, fonts and color of text*/
 body {
   font-family: 'Oswald', sans-serif;
@@ -160,8 +168,8 @@ shrinking images and text for space/ readability */
     flex-direction: row;
   }
   #header-img {
-    position: static;
-    top: -2rem;
+    height: 125px;
+    width:125px;
   }
   /*image size change*/
   .carousel-item img,{
