@@ -6,7 +6,7 @@ body {
 }
 /*tag with flexbox properties for all header and footers*/
 header, footer {
-    height:160px;
+    height:10rem;
     background-color: rgb(129, 169, 224);
     width: 100%;
     display: flex;
@@ -75,7 +75,6 @@ includes flex box properties for spacing */
   text-align: center;
   line-height: 2em;
   background-color: rgba(255, 255, 255, 0.5);
-  
 }
 /*frontpage about us section columns*/
 #columns {
@@ -92,7 +91,7 @@ includes flex box properties for spacing */
 /*adjusting size of images on service page*/
 .servicepics {
   height: 18rem;
-  width: auto; 
+  width: 21rem; 
 }
 /*hyperlink styling, hover background*/
 a {
