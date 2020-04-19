@@ -162,9 +162,13 @@ shrinking images and text for space/ readability */
     top: -2rem;
   }
   /*image size change*/
-  .carousel-item img, .servicepics{
+  .carousel-item img,{
     height: 12.5rem;
     margin: 2em;
+  }
+  .servicepics{
+    height: 12rem;
+    width: 17.5rem; 
   }
   /*uncramming columns for mobile*/
   #columns {
