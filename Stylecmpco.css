@@ -170,6 +170,7 @@ shrinking images and text for space/ readability */
   #header-img {
     height: 125px;
     width:125px;
+    margin-top: 1rem;
   }
   /*image size change*/
   .carousel-item img,{
