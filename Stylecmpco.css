@@ -70,7 +70,7 @@ second classification for Service section
 includes flex box properties for spacing */
 #crossbow {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
   text-align: center;
   line-height: 2em;
@@ -91,7 +91,7 @@ includes flex box properties for spacing */
 }
 /*adjusting size of images on service page*/
 .servicepics {
-  height: 300px; 
+  height: 18rem; 
 }
 /*hyperlink styling, hover background*/
 a {
@@ -155,7 +155,9 @@ shrinking images and text for space/ readability */
     background-color: rgba(185,185,185, 0.75);
     flex-direction: row;
   }
-
+  #header-img {
+    margin-top: -2em;
+  }
   /*image size change*/
   .carousel-item img, .servicepics{
     height: 12.5rem;
