@@ -144,6 +144,8 @@ shrinking images and text for space/ readability */
     align-items: center;
     text-align: center;
     width: 100%;
+    height: 22rem;
+    background-color: transparent;
   }
   h1,h2 {
     font-size: 2rem;
