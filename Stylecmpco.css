@@ -147,7 +147,7 @@ shrinking images and text for space/ readability */
   }
   h1,h2 {
     font-size: 2rem;
-    margin-top: 60px;
+    margin-top: 10px;
     line-height: 40px;
   }
   nav ul {
