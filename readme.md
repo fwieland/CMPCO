@@ -9,7 +9,7 @@ This webpage contains pictures, image carousel(bootstrap), font-changes, headers
 and information regarding company 
 
 Technologies used:
-Html5, CSS3, Javascript; Bootstrap 4, font awesome, google fonts, Formspree io, git, github, github-pages,  
+Html5, CSS3, (Bootstrap 4-CSS, -JS), font awesome, google fonts, Formspree io, git, github, github-pages,  
 
 
 
