@@ -119,10 +119,12 @@ a:hover {
     background: rgb(255, 255, 0);
     border-radius: 3px;
     padding: 15px;
+    margin: -7px;
   }
 /*adjusting google maps link on footer*/
 .gmaps {
-  margin-top: 66px;
+  margin-top: 0px;
+  height: 2rem;
   font-size: 1.1em;
 }
 
