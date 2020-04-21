@@ -113,6 +113,7 @@ a {
     color: rgb(52, 59, 172);
     line-height: 0em;
     font-size: 1.35em;
+    padding: 15px;
   }
 a:hover {
     background: rgb(255, 255, 0);
