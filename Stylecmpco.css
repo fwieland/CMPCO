@@ -127,8 +127,8 @@ includes flex box properties for spacing */
 }
 /*adjusting size of images on service page*/
 .servicepics {
-  height: 18rem;
-  width: 25rem; 
+  width: 100%;
+
 }
 
 /*div control to center form */
@@ -184,11 +184,6 @@ shrinking images and text for space/ readability */
     height: 150px;
     width:150px;
     margin-top: 1rem;
-  }
-  /*image size change*/
-  .servicepics{
-    height: 12rem;
-    width: 17.5rem; 
   }
   /*uncramming columns for mobile*/
   #columns {
