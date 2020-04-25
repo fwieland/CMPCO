@@ -60,6 +60,10 @@ h2, h3, h4, form {
 h3 {
   margin-top: 6rem;
 }
+h5 {
+  font-size: 1.4rem;
+  text-decoration: underline;
+}
 
 figcaption {
   text-align: center;
@@ -162,7 +166,8 @@ shrinking images and text for space/ readability */
     width: 100%;
   }
   header {
-    height: 27rem;
+    height: 30rem;
+    margin-bottom: 3rem;
   }
 
   h1,h2 {
