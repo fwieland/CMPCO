@@ -1,7 +1,7 @@
 #Forrest Wieland (creator of webpages)
 
 link to homepage: 
-https://fwieland.github.io/CMPCO/homepage.html
+https://fwieland.github.io/CMPCO/html/homepage.html
 
 This is a mock webpage for my friend Chris Simons, a plumber (who does not own a plumbing buisness).
 
