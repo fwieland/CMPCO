@@ -52,22 +52,22 @@ footer {
 h1 {
   margin-top: 0.5em;
 }
-h2, h4, form {
+h2, h3, h4, form {
   text-align: center;
-  margin: 1em;
+  margin: 1rem;
+  padding: 1rem;
 }
 h3 {
-  text-indent: 6em;
-  margin-top: 3em;
+  margin-top: 6rem;
 }
+
 figcaption {
   text-align: center;
   font-size: 1.3em;
   margin: 1em;
 }
 .carousel-inner {
-  width:85%;
-  height:50%; 
+  width:100;
   margin: auto;
 }
 
@@ -100,6 +100,7 @@ a {
   margin-right: 25%;
   font-size: 1.3em;
   width: 66%;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 /*id name flexbox zombies inspired.
 second classification for Service section
@@ -111,7 +112,6 @@ includes flex box properties for spacing */
   align-items: center;
   text-align: center;
   line-height: 0em;
-  background-color: rgba(255, 255, 255, 0.5);
 }
 /*frontpage about us section columns*/
 #columns {
@@ -128,7 +128,6 @@ includes flex box properties for spacing */
 /*adjusting size of images on service page*/
 .servicepics {
   width: 100%;
-
 }
 
 /*div control to center form */
