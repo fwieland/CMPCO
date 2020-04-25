@@ -1,4 +1,4 @@
-/*for proper width at small screens Hopefully*/
+/*box reset*/
 html {
   box-sizing: border-box;
 }
@@ -10,7 +10,7 @@ html {
 body {
   font-family: 'Oswald', sans-serif;
   color: rgb(52, 59, 172);
-  background-image: url('https://cdn.pixabay.com/photo/2018/04/08/15/13/background-3301487_1280.jpg');
+  background-color: rgb(232,232,232);
 }
 /*tag with flexbox properties for all header and footers*/
 header, footer {
@@ -18,6 +18,7 @@ header, footer {
     background-color: rgb(129, 169, 224);
     width: 100%;
     display: flex;
+    background-color: white;
     justify-content: space-around;
     text-align: center;
 }  
@@ -35,9 +36,9 @@ nav ul{
     padding: 0em;
   }
 nav li{
-    display: inline;
-    padding: 1em;
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
   }
 
 /*spacing text into white space
@@ -45,6 +46,7 @@ nav li{
 footer {
   margin-top: 50px;
   padding:20px;
+  height: 6rem;
   text-align: center;
 }
 h1 {
@@ -64,9 +66,9 @@ figcaption {
   margin: 1em;
 }
 .carousel-inner {
-  width:31.25rem;
-  height:25rem; 
-  margin: auto !important;
+  width:85%;
+  height:50%; 
+  margin: auto;
 }
 /*rules for sections. Spacing, boder, text size*/
 .bordertext {
@@ -81,7 +83,7 @@ figcaption {
   font-size: 1.3em;
   width: 66%;
 }
-/*bad id name. flexbox zombies inspired.
+/*id name flexbox zombies inspired.
 second classification for Service section
 includes flex box properties for spacing */
 #crossbow {
@@ -96,10 +98,10 @@ includes flex box properties for spacing */
 /*frontpage about us section columns*/
 #columns {
   column-count: 3;
-  column-gap: 12px;
-  column-rule-style: solid;
-  line-height: 1.3em;
-  padding: 1.3em;
+  column-gap: 2rem;
+  text-align: center;
+  line-height: 2rem;
+  padding: 1em;
 }
 /*contact us page top*/
 #phonecall {
@@ -112,24 +114,24 @@ includes flex box properties for spacing */
 }
 /*hyperlink styling, hover background*/
 a {
+    font-size: 1.2rem;
+    padding: 2rem;
+    margin: 1rem;
     text-decoration: none;
+    color: black;
+  }
+.nav-link:hover,.gmaps:hover, .btn:hover {
     color: rgb(52, 59, 172);
-    line-height: 0em;
-    font-size: 1.35em;
-    padding: 15px;
-  }
-a:hover {
-    background: rgb(255, 255, 0);
     border-radius: 3px;
-    padding: 15px;
-    margin: -7px;
+    text-decoration: none;
   }
-/*adjusting google maps link on footer*/
-.gmaps {
-  margin-top: 0px;
-  height: 2rem;
-  font-size: 1.1em;
-}
+  .gmaps {
+    text-decoration: none;
+    font-size: 1rem;
+    padding: .375rem .75rem;
+    height: 38px;
+  }
+
 
 
 /*div control to center form */
@@ -198,19 +200,14 @@ shrinking images and text for space/ readability */
   #contact-links{
     position: static;
   }
-  .contact-links{
-    margin-top: 1rem;
-  }
+
 }
 @media screen and (max-width: 500px){
   .carousel-inner, .carousel-item {
-    width:20rem;
-    height:15rem; 
-    margin: auto !important;
+    width:100%;
+    height: 100%;
   }
-  .bordertext {
-    margin-left: 7%;
-  }
+
 }
 @media screen and (max-width: 400px){
   body{
@@ -226,11 +223,6 @@ shrinking images and text for space/ readability */
   .bordertext{
     margin: 7px;
     padding: 0;
-    width:300px;
-  }
-  .d-block, .w-100 {
-    width:12rem !important;
-    height:8rem; 
-    margin: auto !important;
+    width: 95%;
   }
 }
