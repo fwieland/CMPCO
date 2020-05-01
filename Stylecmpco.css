@@ -111,17 +111,7 @@ includes flex box properties for spacing */
   text-align: center;
   line-height: 0em;
 }
-/*frontpage about us section columns*/
-#columns {
-  column-count: 3;
-  column-gap: 2rem;
-  text-align: center;
-  line-height: 2rem;
-  padding: 1rem;
-}
-.container{
-  text-align: center;
-}
+/*frontpage bootstrap column styling*/
 .about-contain{
   background-color: whitesmoke;
   line-height: 2rem;
